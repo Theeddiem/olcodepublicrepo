@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. CUSTOMER. eddie
+       PROGRAM-ID. CUSTOMER. push too
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
@@ -7,4 +7,4 @@
 
        PROCEDURE DIVISION.
            DISPLAY "CUSTOMER PROGRAM".
-           GOBACK.
+           GOBACK.sds
