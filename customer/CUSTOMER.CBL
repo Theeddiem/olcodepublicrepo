@@ -1,10 +1,10 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. CUSTOMER. push too
+       PROGRAM-ID. CUSTOMER.
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 WS-CUSTOMER-ID        PIC X(10). new
+       01 WS-CUSTOMER-ID        PIC X(10).
 
        PROCEDURE DIVISION.
            DISPLAY "CUSTOMER PROGRAM".
-           GOBACK.sds
+           GOBACK.
