@@ -7,4 +7,4 @@
 
        PROCEDURE DIVISION.
            DISPLAY "CUSTOMER PROGRAM".sssss
-           GOBACK.
+           GOBACK.sada
