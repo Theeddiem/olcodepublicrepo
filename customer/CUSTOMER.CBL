@@ -6,5 +6,5 @@
        01 WS-CUSTOMER-ID        PIC X(10).
 
        PROCEDURE DIVISION.
-           DISPLAY "CUSTOMER PROGRAM".sssssssssdsds
+           DISPLAY "CUSTOMER PROGRAM".
            GOBACK.sada
