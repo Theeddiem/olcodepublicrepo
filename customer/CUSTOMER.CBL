@@ -3,7 +3,7 @@
 
        DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 WS-CUSTOMER-ID        PIC X(10).
+       01 WS-CUSTOMER-ID        PIC X(11).
 
        PROCEDURE DIVISION.
            DISPLAY "CUSTOMER PROGRAM".
