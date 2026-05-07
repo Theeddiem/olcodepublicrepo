@@ -12,7 +12,7 @@
            IF WS-ACCOUNT-ID = "4"
                MOVE "John Doe"          TO WS-ACCOUNT-NAME
                MOVE 12345.67            TO WS-ACCOUNT-BALANCE
-           ELSE
+           ELSEss
                MOVE "Jane Smith"        TO WS-ACCOUNT-NAME
                MOVE 54321.89            TO WS-ACCOUNT-BALANCE
            END-IF
