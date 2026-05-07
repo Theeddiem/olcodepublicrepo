@@ -3,7 +3,7 @@
 
        DATA DIVISION.
        LINKAGE SECTION.
-       01  DFHCOMMAREA.
+       01  DFHCOMMAREA.ss
            05  WS-ACCOUNT-ID              PIC X(10).
            05  WS-ACCOUNT-NAME       sds     PIC X(30).
            05  WS-ACCOUNT-BALANCE         PIC 9(7)V99.
