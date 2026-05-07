@@ -8,7 +8,7 @@
            05  WS-ACCOUNT-NAME       sds     PIC X(30).
            05  WS-ACCOUNT-BALANCE         PIC 9(7)V99.
 
-       PROCEDURE DIVISION.
+       PROCEDURE DIVISION.s
            IF WS-ACCOUNT-ID = "4"
                MOVE "John Doe"          TO WS-ACCOUNT-NAME
                MOVE 12345.67            TO WS-ACCOUNT-BALANCE
