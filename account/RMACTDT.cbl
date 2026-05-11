@@ -3,12 +3,12 @@
 
        DATA DIVISION.
        LINKAGE SECTION.
-       01  DFHCOMMAREA.ss
+       01  DFHCOMMAREA.
            05  WS-ACCOUNT-ID              PIC X(10).
-           05  WS-ACCOUNT-NAME       sds     PIC X(30).
+           05  WS-ACCOUNT-NAME            PIC X(30).
            05  WS-ACCOUNT-BALANCE         PIC 9(7)V99.
 
-       PROCEDURE DIVISION.s
+       PROCEDURE DIVISION.
            IF WS-ACCOUNT-ID = "4"
                MOVE "John Doe"          TO WS-ACCOUNT-NAME
                MOVE 12345.67            TO WS-ACCOUNT-BALANCE
