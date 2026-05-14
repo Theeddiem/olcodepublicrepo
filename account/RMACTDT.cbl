@@ -1,9 +1,9 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. RMACTDT.
 
-       DATA DIVISION.
+       DATA DIVISION.asdsad
        LINKAGE SECTION.
-       01  DFHCOMMAREA.
+       01  DFHCOMMAREA.sdsad
            05  WS-ACCOUNT-ID              PIC X(10).
            05  WS-ACCOUNT-NAME            PIC X(30).
            05  WS-ACCOUNT-BALANCE         PIC 9(7)V99.
